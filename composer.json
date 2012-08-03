@@ -1,0 +1,21 @@
+{
+    "name": "foglcz/adminer-installer",
+    "description": "An interactive installer for Jakub Vrana's \"Adminer\" - the most awesome database management tool on the planet.",
+    "type": "composer-installer",
+    "homepage": "https://github.com/foglcz/adminer-installer",
+    "authors": [
+        {
+            "name": "Pavel Ptacek",
+            "email": "birdie@animalgroup.cz"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"foglcz\\Adminer": ""}
+    },
+    "extra": {
+        "class": "foglcz\\Adminer\\Installer"
+    },
+    "require": {
+        "php": ">=5.3.2"
+    }
+}
