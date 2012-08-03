@@ -3,12 +3,17 @@
     "description": "An interactive installer for Jakub Vrana's \"Adminer\" - the most awesome database management tool on the planet.",
     "type": "composer-installer",
     "homepage": "https://github.com/foglcz/adminer-installer",
+    "license": ["LGPL-2.0", "New BSD", "LGPL-3.0"],
     "authors": [
         {
             "name": "Pavel Ptacek",
             "email": "birdie@animalgroup.cz"
         }
     ],
+    "support": {
+        "issues": "https://github.com/foglcz/adminer-installer/issues",
+        "source": "https://github.com/foglcz/adminer-installer"
+    },
     "autoload": {
         "psr-0": {"foglcz\\Adminer": ""}
     },
